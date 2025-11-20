@@ -1,21 +1,22 @@
 #include <iostream>
 using namespace std;
 
+
 //problem 1
 
-// void setToHundred(int** p){
-// **p = 100;
-// }
-// int main(){
-// int x;
-// cin >> x;
-// int* p = &x;
-// setToHundred(&p);
-// cout << x;
-// return 0;
-// }
-//
-// //problem 2
+void setToHundred(int** p){
+**p = 100;
+}
+int main(){
+int x;
+cin >> x;
+int* p = &x;
+setToHundred(&p);
+cout << x;
+return 0;
+}
+
+//problem 2
 //
 // void swapRef(int& a, int& b){
 // int temp = a;
